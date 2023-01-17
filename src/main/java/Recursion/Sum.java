@@ -12,5 +12,6 @@ public class Sum {
         }
         sum += i;
         sum(i + 1, n, sum);
+        System.out.println(sum);
     }
 }
