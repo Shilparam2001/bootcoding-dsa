@@ -5,13 +5,13 @@ public class FactorialNo {
         System.out.println(  calculatefactorial(5));
     }
     public static int calculatefactorial(int n){
-        if(n == 1 || n == 0){
+        if(n == 1 ){
             return 1;
         }
 
-       int fact =  calculatefactorial(n - 1);
-       int factno = n * fact;
-       return factno;
+      // int fact =  calculatefactorial(n - 1);
+      // int factno = n * fact;
+       return n*calculatefactorial(n-1);
 
     }
 }
