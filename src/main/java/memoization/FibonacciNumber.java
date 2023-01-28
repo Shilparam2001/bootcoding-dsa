@@ -28,7 +28,7 @@ public class FibonacciNumber {
         if(cache.containsKey(n)){
             return cache.get(n);
         }
-        cache.put(n, fibMemoization(n-1) + fibMemoization(n-2));
+        cache.put(n, fibMemoization(n-1) + fibMemoization(n-2) + fibMemoization(n-3));
         return cache.get(n);
     }
 }
