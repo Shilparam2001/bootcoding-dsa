@@ -1,5 +1,7 @@
 package Tree;
 
+
+
 public class Order {
     public static BinaryTree create() {
         BinaryTree root = new BinaryTree(1);
@@ -51,5 +53,7 @@ public class Order {
         preOrder(root);
         System.out.println("postOrder");
         postOrder(root);
+
     }
+
 }
