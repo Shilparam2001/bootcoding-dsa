@@ -10,6 +10,8 @@ public class InterfacePaymentMethodDemo {
     public static void main(String[] args) {
 
         makePayment(new DebitCard());
+
+        }
+
     }
 
-}
